@@ -233,7 +233,7 @@ function songTransition() {
             songEl.forEach(element => {
                 setTimeout(() => {
                     element.classList.add('song-el-visible');
-                }, 600);
+                }, delay);
             });
         });
     }
