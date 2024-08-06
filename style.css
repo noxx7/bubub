@@ -381,24 +381,35 @@ i {
   display: none;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 375px){
   .container {
-    padding: 8px;
-    max-height: 420px;
+    padding: 8px 8px 0 8px;
+    max-height: 500px;
   }
 
   .container-body {
-    padding: 10px 16px 10px 16px;
+    padding: 0px 16px 10px 16px;
     max-height: 300px;
+    margin-bottom: 5px;
   }
 
   .header {
     padding: 4px;
   }
 
+  .greet {
+    margin-top: 10px;
+  }
+
+  .container-btn button {
+    padding: 5px 15px;
+    font-size: 10px;
+  }
+
   .lower-btn {
+    margin-top: 0;
     font-size: 13px;
-    padding: 5px 12px;
+    padding: 5px 15px;
   }
 
   .greet {
@@ -406,7 +417,7 @@ i {
   }
 
   p {
-    font-size: 12px;
+    font-size: 11px;
   }
 
   .second-page-header-text {
@@ -420,11 +431,16 @@ i {
 
   .second-page-gif img {
     height: 70px;
-    margin: 10px 10px 0 10px;
+    margin: 10px 10px 0px 10px;
+  }
+
+  .container-lower-btn {
+    margin-top: 0;
   }
 
   .note-p {
     font-size: 8px;
+    margin-top: 1px;
   }
 
   .note-gif {
@@ -462,6 +478,7 @@ i {
   .wish-footer button {
     padding: 6px 15px;
   }
+  
 }
 
 @media (max-width: 375px){
