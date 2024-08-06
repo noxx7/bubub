@@ -67,6 +67,10 @@ body {
   overflow: hidden;
 }
 
+.container-lower {
+  margin: 0;
+}
+
 .container-btn {
   border: none;
 }
@@ -380,95 +384,12 @@ i {
 @media (max-width: 480px) {
   .container {
     padding: 8px;
-    max-height: 500px;
+    max-height: 420px;
   }
 
   .container-body {
     padding: 10px 16px 10px 16px;
-    max-height: 400px;
-  }
-
-  .header {
-    padding: 4px;
-  }
-
-  .lower-btn {
-    font-size: 13px;
-    padding: 5px 12px;
-  }
-
-  .greet {
-    font-size: 20px;
-  }
-
-  p {
-    font-size: 12px;
-  }
-
-  .second-page-header-text {
-    font-size: 15px;
-  }
-
-  .second-page-p {
-    margin: 10px;
-    font-size: 13px;
-  }
-
-  .second-page-gif img {
-    height: 70px;
-    margin: 10px 10px 0 10px;
-  }
-
-  .note-p {
-    font-size: 10px;
-  }
-
-  .note-gif {
-    height: 80px;
-  }
-
-  .song-header-text {
-    font-size: small;
-  }
-
-  .footer-text {
-    font-size: smaller;
-  }
-
-  .song-gif {
-    height: 100px;
-  }
-
-  .w-text {
-    font-size: small;
-  }
-
-  .wish-page img {
-    height: 100px;
-  }
-
-  .footer-p {
-    font-size: 10px;
-  }
-
-  .wish-footer-btn {
-    font-size: smaller;
-  }
-  
-  .wish-footer button {
-    padding: 6px 15px;
-  }
-}
-
-@media (max-width: 375px){
-  .container {
-    padding: 8px;
-    max-height: 500px;
-  }
-
-  .container-body {
-    padding: 10px 16px 10px 16px;
-    max-height: 400px;
+    max-height: 300px;
   }
 
   .header {
@@ -541,4 +462,104 @@ i {
   .wish-footer button {
     padding: 6px 15px;
   }
+}
+
+@media (max-width: 375px){
+  .container {
+    padding: 8px 8px 0 8px;
+    max-height: 500px;
+  }
+
+  .container-body {
+    padding: 0px 16px 10px 16px;
+    max-height: 300px;
+    margin-bottom: 5px;
+  }
+
+  .header {
+    padding: 4px;
+  }
+
+  .greet {
+    margin-top: 10px;
+  }
+
+  .container-btn button {
+    padding: 5px 15px;
+    font-size: 10px;
+  }
+
+  .lower-btn {
+    margin-top: 0;
+    font-size: 13px;
+    padding: 5px 15px;
+  }
+
+  .greet {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 11px;
+  }
+
+  .second-page-header-text {
+    font-size: 15px;
+  }
+
+  .second-page-p {
+    margin: 10px;
+    font-size: 13px;
+  }
+
+  .second-page-gif img {
+    height: 70px;
+    margin: 10px 10px 0px 10px;
+  }
+
+  .container-lower-btn {
+    margin-top: 0;
+  }
+
+  .note-p {
+    font-size: 8px;
+    margin-top: 1px;
+  }
+
+  .note-gif {
+    height: 80px;
+  }
+
+  .song-header-text {
+    font-size: small;
+  }
+
+  .footer-text {
+    font-size: smaller;
+  }
+
+  .song-gif {
+    height: 100px;
+  }
+
+  .w-text {
+    font-size: small;
+  }
+
+  .wish-page img {
+    height: 100px;
+  }
+
+  .footer-p {
+    font-size: 10px;
+  }
+
+  .wish-footer-btn {
+    font-size: smaller;
+  }
+  
+  .wish-footer button {
+    padding: 6px 15px;
+  }
+  
 }
